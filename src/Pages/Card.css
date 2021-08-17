@@ -1,0 +1,93 @@
+
+.pro{
+    width: 100;
+    height: 1000px;
+    padding-top: 20px;
+   padding-left: 50px;
+}
+.totalpro{
+    float: left;
+    padding: 2px;
+    width: 100;
+    
+}
+.image{
+    width: 200px;
+    height: 200px;
+}
+
+@media screen and (max-width:1085px){
+    .pro{
+        width: 100;
+        height: 2000px;
+    }
+}
+@media screen and (max-width:680px){
+    .pro{
+        width: 100;
+        height: 2500px;
+    }
+}
+@media screen and (max-width:680px){
+    .pro{
+        width: 100;
+        height: 2500px;
+    }
+}
+@media screen and (max-width:485px){
+    .pro{
+        width: 100;
+        height: 5500px;
+    }
+    .image{
+        width: 250px;
+        height: 250px;
+    }
+}
+
+.control{
+    padding: 20px;
+    font-size: 20px;
+    
+        padding-left: 50px;
+    
+    width: 100%;
+  background-color:lightgray;
+}
+.control input{
+    width: 300px;
+
+}
+@media screen  and (max-width:400px){
+    .control input{
+        width: 200px;
+    
+    }
+   
+}
+
+
+.add{
+     margin: 6px;
+     border: none;
+     outline: none;
+}
+.remo{
+    margin: 6px;
+}
+
+.abtn a{
+  text-decoration: none;
+  
+}
+
+.abtn{
+    border-radius: 10px;
+}
+
+@media screen and (max-width:330px){
+    .image{
+        width: 200px;
+        height: 200px;
+    }
+}

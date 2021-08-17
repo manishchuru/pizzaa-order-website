@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import  Navroute from './Route';
+import {FiInstagram} from 'react-icons/fi';
+import {GrFacebookOption} from 'react-icons/gr';
+import {FiTwitter} from 'react-icons/fi';
+import {ImWhatsapp} from 'react-icons/im';
+import "./App.css";
+const App = () => {
+    return (
+        <div>
+     <Navroute/>
+      <div className="foter">
+     
+        <FiInstagram id='insta'/>
+        <GrFacebookOption  id='face'/>
+        <FiTwitter id='twi'/>
+        <ImWhatsapp id='what'/>
+ 
+        </div>
     </div>
-  );
+   );
 }
 
 export default App;

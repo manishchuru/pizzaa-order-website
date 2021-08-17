@@ -1,0 +1,55 @@
+.navbar{
+   background-color: lightyellow;
+    width: 100%;
+}
+.navbar:hover{
+    color: mediumaquamarine;
+}
+
+
+li{
+    list-style: none;
+    float: left;
+}
+ul li a{
+    text-decoration: none;
+      padding: 20px;
+    font-size: 20px;
+
+}
+.navbar-links:hover{
+ color: mediumseagreen;
+}
+
+
+
+@media screen and (max-width:800px) {
+    ul li a{
+        text-decoration: none;
+          padding: 10px;
+        font-size: 20px;
+    
+    }  
+}
+
+
+.fisho{
+    font-size: 30px;
+    color: red;
+   margin-left: 20px;
+}
+body{
+  background-color:lightblue;
+}
+
+
+.cartshop{
+    font-size: 30px;
+    color: lime;
+    padding-right: 40px;
+}
+
+.icon{
+    margin-left: 20px;
+    font-size: 30px;
+}

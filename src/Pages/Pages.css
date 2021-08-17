@@ -1,0 +1,41 @@
+.about{
+   text-align: left;
+}
+
+.fullform{
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.form{
+    background-color: white;
+    padding: 80px;
+   
+}
+.form input {
+    width: 250px;
+    padding: 4px;
+}
+ @media screen and (max-width:720px) {
+    .form input {
+        width: 200px;
+        padding: 4px;
+    }  
+ }
+
+@media screen and (max-width:410px){
+    .form{
+        background-color: white;
+        padding: 30px;
+       
+    }
+}
+@media screen and (max-width:630px) {
+    .fullform{
+        text-align: center;
+        padding-top: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
